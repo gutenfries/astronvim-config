@@ -15,12 +15,22 @@ return {
 
 	{
 		"nyoom-engineering/oxocarbon.nvim",
-		-- lazy = false,
+		lazy = true,
+	},
+
+	{
+		"rmehri01/onenord.nvim",
+		lazy = true,
+	},
+
+	{
+		"navarasu/onedark.nvim",
+		lazy = false,
 	},
 
 	{
 		"kvrohit/mellow.nvim",
-		-- lazy = false,
+		lazy = true,
 	},
 
 	{
@@ -87,7 +97,10 @@ return {
 		cmd = "TagbarToggle",
 	},
 
-	{ "folke/trouble.nvim" },
+	{
+		"folke/trouble.nvim",
+		lazy = true,
+	},
 
 	{
 		"RishabhRD/nvim-cheat.sh",
@@ -170,5 +183,7 @@ return {
 		"eandrju/cellular-automaton.nvim",
 		cmd = "CellularAutomaton",
 		config = true,
+		lazy = true,
 	},
+
 }
