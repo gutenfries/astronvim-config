@@ -186,4 +186,10 @@ return {
 		lazy = true,
 	},
 
+	{
+		'wakatime/vim-wakatime',
+		event = "BufRead",
+		lazy = false,
+	},
+
 }
