@@ -13,14 +13,6 @@ return {
 	},
 	{
 		"jay-babu/mason-null-ls.nvim",
-		opts = {
-			ensure_installed = {
-				-- "stylua",
-				-- "black",
-				"prettierd",
-				-- "eslint",
-			},
-		},
 		config = function(_, opts)
 			local mason_null_ls = require "mason-null-ls"
 			local null_ls = require "null-ls"
